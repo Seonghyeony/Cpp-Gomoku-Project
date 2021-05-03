@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\Project-C-C++\Gomoku Game Project\Client\bin\Debug\Client.exe.config
+C:\Users\user\Desktop\Project-C-C++\Gomoku Game Project\Client\bin\Debug\Client.exe
+C:\Users\user\Desktop\Project-C-C++\Gomoku Game Project\Client\bin\Debug\Client.pdb
+C:\Users\user\Desktop\Project-C-C++\Gomoku Game Project\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\user\Desktop\Project-C-C++\Gomoku Game Project\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Project-C-C++\Gomoku Game Project\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Project-C-C++\Gomoku Game Project\Client\obj\Debug\Client.exe
+C:\Users\user\Desktop\Project-C-C++\Gomoku Game Project\Client\obj\Debug\Client.pdb
+C:\Users\user\Desktop\Project-C-C++\Gomoku Game Project\Client\obj\Debug\Client.MenuForm.resources
+C:\Users\user\Desktop\Project-C-C++\Gomoku Game Project\Client\obj\Debug\Client.SinglePlayForm.resources
+C:\Users\user\Desktop\Project-C-C++\Gomoku Game Project\Client\obj\Debug\Client.MultiPlayForm.resources
