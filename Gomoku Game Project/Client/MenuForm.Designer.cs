@@ -29,23 +29,15 @@ namespace Client
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.singlePlayButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.multiPlayButton = new System.Windows.Forms.Button();
+            this.AIPlayButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(379, 201);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 12);
-            this.label1.TabIndex = 0;
             // 
             // singlePlayButton
             // 
-            this.singlePlayButton.Location = new System.Drawing.Point(259, 84);
+            this.singlePlayButton.Location = new System.Drawing.Point(243, 67);
             this.singlePlayButton.Name = "singlePlayButton";
             this.singlePlayButton.Size = new System.Drawing.Size(100, 40);
             this.singlePlayButton.TabIndex = 1;
@@ -55,7 +47,7 @@ namespace Client
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(259, 231);
+            this.exitButton.Location = new System.Drawing.Point(243, 261);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(100, 40);
             this.exitButton.TabIndex = 2;
@@ -65,7 +57,7 @@ namespace Client
             // 
             // multiPlayButton
             // 
-            this.multiPlayButton.Location = new System.Drawing.Point(259, 157);
+            this.multiPlayButton.Location = new System.Drawing.Point(243, 131);
             this.multiPlayButton.Name = "multiPlayButton";
             this.multiPlayButton.Size = new System.Drawing.Size(100, 40);
             this.multiPlayButton.TabIndex = 3;
@@ -73,28 +65,36 @@ namespace Client
             this.multiPlayButton.UseVisualStyleBackColor = true;
             this.multiPlayButton.Click += new System.EventHandler(this.multiPlayButton_Click);
             // 
+            // AIPlayButton
+            // 
+            this.AIPlayButton.Location = new System.Drawing.Point(243, 196);
+            this.AIPlayButton.Name = "AIPlayButton";
+            this.AIPlayButton.Size = new System.Drawing.Size(100, 40);
+            this.AIPlayButton.TabIndex = 4;
+            this.AIPlayButton.Text = "인공지능 연습";
+            this.AIPlayButton.UseVisualStyleBackColor = true;
+            this.AIPlayButton.Click += new System.EventHandler(this.AIPlayButton_Click);
+            // 
             // MenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 361);
+            this.Controls.Add(this.AIPlayButton);
             this.Controls.Add(this.multiPlayButton);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.singlePlayButton);
-            this.Controls.Add(this.label1);
             this.Name = "MenuForm";
             this.Text = "Gomoku Game Project";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button singlePlayButton;
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.Button multiPlayButton;
+        private System.Windows.Forms.Button AIPlayButton;
     }
 }
 
